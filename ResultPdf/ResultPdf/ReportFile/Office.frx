@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/30/2019 09:57:20" ReportInfo.Modified="05/30/2019 10:21:21" ReportInfo.CreatorVersion="2013.3.9.0">
+  <Dictionary>
+    <XmlDataConnection Name="Connection" ConnectionString="rijcmlqmmfdjkQxfe1iwShBNGpud1qvEvVX8ZCGGTMj/iRWSs2riVBv+GHceA5S6qf2k5UE5CwM5ZSYVTuQcfWeAUKCNEnPA3PF6fcMVJNSq/vv2E4z7k0y8W6puzQ+5U4tLlkM">
+      <TableDataSource Name="Experience" DataType="System.Int32" Enabled="true" TableName="Experience">
+        <Column Name="start" DataType="System.String"/>
+        <Column Name="end" DataType="System.String"/>
+        <Column Name="Location" DataType="System.String"/>
+      </TableDataSource>
+    </XmlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Left="292.95" Top="9.45" Width="94.5" Height="18.9" Text="文档测试数据" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="Text2" Left="47.25" Top="3" Width="132.3" Height="18.9" Text="开始时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="245.7" Top="3" Width="113.4" Height="18.9" Text="结束时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text4" Left="444.15" Top="3" Width="122.85" Height="18.9" Text="工作地点" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="75.6" DataSource="Experience">
+      <TextObject Name="Text5" Left="47.25" Top="18.9" Width="132.3" Height="18.9" Text="[Experience.start]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text6" Left="245.7" Top="18.9" Width="113.4" Height="18.9" Text="[Experience.end]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text7" Left="444.15" Top="18.9" Width="122.85" Height="18.9" Text="[Experience.Location]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+    </DataBand>
+  </ReportPage>
+</Report>

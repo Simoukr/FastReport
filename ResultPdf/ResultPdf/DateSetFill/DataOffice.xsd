@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataOffice" targetNamespace="http://tempuri.org/DataOffice.xsd" xmlns:mstns="http://tempuri.org/DataOffice.xsd" xmlns="http://tempuri.org/DataOffice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataOffice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataOffice" msprop:Generator_UserDSName="DataOffice">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Experience" msprop:Generator_TableClassName="ExperienceDataTable" msprop:Generator_TableVarName="tableExperience" msprop:Generator_RowChangedName="ExperienceRowChanged" msprop:Generator_TablePropName="Experience" msprop:Generator_RowDeletingName="ExperienceRowDeleting" msprop:Generator_RowChangingName="ExperienceRowChanging" msprop:Generator_RowEvHandlerName="ExperienceRowChangeEventHandler" msprop:Generator_RowDeletedName="ExperienceRowDeleted" msprop:Generator_RowClassName="ExperienceRow" msprop:Generator_UserTableName="Experience" msprop:Generator_RowEvArgName="ExperienceRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="start" msprop:Generator_ColumnVarNameInTable="columnstart" msprop:Generator_ColumnPropNameInRow="start" msprop:Generator_ColumnPropNameInTable="startColumn" msprop:Generator_UserColumnName="start" type="xs:string" minOccurs="0" />
+              <xs:element name="end" msprop:Generator_ColumnVarNameInTable="columnend" msprop:Generator_ColumnPropNameInRow="end" msprop:Generator_ColumnPropNameInTable="endColumn" msprop:Generator_UserColumnName="end" type="xs:string" minOccurs="0" />
+              <xs:element name="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" msprop:Generator_UserColumnName="Location" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

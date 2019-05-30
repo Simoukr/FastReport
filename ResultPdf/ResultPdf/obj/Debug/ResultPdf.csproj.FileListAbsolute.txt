@@ -1,0 +1,17 @@
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\bin\Debug\ResultPdf.exe.config
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\bin\Debug\ResultPdf.exe
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\bin\Debug\ResultPdf.pdb
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\bin\Debug\FastReport.Bars.dll
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\bin\Debug\FastReport.Editor.dll
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.csprojResolveAssemblyReference.cache
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\MainWindow.g.cs
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\App.g.cs
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf_MarkupCompile.cache
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf_MarkupCompile.lref
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\MainWindow.baml
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.g.resources
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.Properties.Resources.resources
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.csproj.GenerateResource.Cache
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.exe
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.pdb
+C:\Users\10251\Desktop\ResultPdf\ResultPdf\bin\Debug\ReportFile\Office.frx
