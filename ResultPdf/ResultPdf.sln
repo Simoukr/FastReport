@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultPdf", "ResultPdf\ResultPdf.csproj", "{128BA28C-41EE-4529-AC3E-6C45F96440C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "水晶报表", "水晶报表\水晶报表\水晶报表.csproj", "{F9457756-1E65-477E-9AC3-DAAC80FD6EF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{128BA28C-41EE-4529-AC3E-6C45F96440C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128BA28C-41EE-4529-AC3E-6C45F96440C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128BA28C-41EE-4529-AC3E-6C45F96440C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9457756-1E65-477E-9AC3-DAAC80FD6EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9457756-1E65-477E-9AC3-DAAC80FD6EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9457756-1E65-477E-9AC3-DAAC80FD6EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9457756-1E65-477E-9AC3-DAAC80FD6EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A823F4C5-6D83-41A5-A613-9FF2EF1C64B6}
 	EndGlobalSection
 EndGlobal
