@@ -15,3 +15,6 @@ C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.csproj.GenerateRe
 C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.exe
 C:\Users\10251\Desktop\ResultPdf\ResultPdf\obj\Debug\ResultPdf.pdb
 C:\Users\10251\Desktop\ResultPdf\ResultPdf\bin\Debug\ReportFile\Office.frx
+C:\Users\10251\Desktop\TET\11\FastReport\ResultPdf\ResultPdf\bin\Debug\ResultPdf.exe.config
+C:\Users\10251\Desktop\TET\11\FastReport\ResultPdf\ResultPdf\obj\Debug\ResultPdf.exe
+C:\Users\10251\Desktop\TET\11\FastReport\ResultPdf\ResultPdf\obj\Debug\ResultPdf.pdb
