@@ -1,0 +1,60 @@
+﻿<Window x:Class="SerialDebugging.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SerialDebugging"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Label Content="串口" VerticalAlignment="Center"></Label>
+            <ComboBox Width="120" Height="30" HorizontalAlignment="Left" x:Name="cbxCOMPort" HorizontalContentAlignment="Center">
+                
+            </ComboBox>
+            <Label Content="波特率" VerticalAlignment="Center" Margin="30 0 0 0"></Label>
+            <ComboBox  Width="120" Height="30" HorizontalAlignment="Right" x:Name="cbxBaudRate"  HorizontalContentAlignment="Center">
+                <ComboBoxItem>1200</ComboBoxItem>
+                <ComboBoxItem>2400</ComboBoxItem>
+                <ComboBoxItem>4800</ComboBoxItem>
+                <ComboBoxItem>9600</ComboBoxItem>
+                <ComboBoxItem>19200</ComboBoxItem>
+                <ComboBoxItem>38400</ComboBoxItem>
+                <ComboBoxItem>43000</ComboBoxItem>
+                <ComboBoxItem>56000</ComboBoxItem>
+                <ComboBoxItem>57600</ComboBoxItem>
+                <ComboBoxItem>115200</ComboBoxItem>
+            </ComboBox>
+            <Button Width="60" Height="30" Margin="10 0 0 0" Content="检测串口" x:Name="detectionBtn" Click="detectionBtn_Click" ></Button>
+            <Button Width="60" Height="30" Margin="10 0 0 0" Content="打开串口" x:Name="OpenBtn" Click="OpenBtn_Click"></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Label Content="高位" VerticalAlignment="Center"></Label>
+            <TextBox Width="50" Height="20"  PreviewTextInput="TextBox_PreviewTextInput"  MaxLength="1" x:Name="HigtTxt" PreviewKeyDown="TextBox_PreviewKeyDown"></TextBox>
+        </StackPanel>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Row="0">
+                <Label Content="开机码" VerticalAlignment="Center"></Label>
+                <local:OutputEvent  x:Name="wrapOn"></local:OutputEvent>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                <Label Content="关机码" VerticalAlignment="Center"></Label>
+                <local:OutputEvent Grid.Row="1" x:Name="wrapOff"></local:OutputEvent>
+            </StackPanel>
+            <StackPanel Grid.Row="2">
+                <Button Width="50" Height="30" Content="发送指令" x:Name="BtnSend" HorizontalAlignment="Right" Margin="0 15 50 0" Click="BtnSend_Click"></Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
